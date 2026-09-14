@@ -1,0 +1,53 @@
+{
+  "cookies": [
+    {
+      "name": "msal.cache.encryption",
+      "value": "%7B%22id%22%3A%2201a09aac-dc76-733a-9f99-ad9092299720%22%2C%22key%22%3A%22-OmniUf0hWlhE_lnvuzSMQHfC98WvfeWtOY4DkhLO4Y%22%7D",
+      "domain": "innovaweb.innovacare.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "accessToken",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MzM1OSIsIm5hbWUiOiJEZW1vNzMzNTkiLCJ1c2VySWQiOiI3MzM1OSIsInVzZXJOYW1lIjoiRGVtbzczMzU5IiwiZnJhbmNoaXNlSWQiOiIyIiwicm9sZVN0YXR1cyI6IjMiLCJqdGkiOiI1NDI2ZDRkZC1mMjhiLTQzMjYtOTEwZS0zYmI4YTA5OWNhNzgiLCJpYXQiOiIxNzg5MzAxNDE2Iiwic29jU2lkIjoiMTQxMWM5NTItNTJiOS00M2U1LWJiMTMtZWU0ODc3Njk5NmViIiwiYXV0aE1ldGhvZCI6InBhc3N3b3JkIiwiZXhwIjoxNzg5MzAyMDE2LCJpc3MiOiJJbm5vdmFjYXJlQVBJIiwiYXVkIjoiSW5ub3ZhY2FyZVdlYkFwcCJ9.HFtEwFrNB2axSIIfwMjodC2hqsi1oPUw_0lMt0_iaeo",
+      "domain": "innovaweb.innovacare.net",
+      "path": "/",
+      "expires": 1789302016.752087,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "refreshToken",
+      "value": "PaowJBOvzsZ%2F7TDbDXM7s5ns0U0iWdjDh%2FxWuQt4W9ghAPV5zgiquv8Nuh8zQ61CItBHDOuuqtip2HgqflG9wQ%3D%3D",
+      "domain": "innovaweb.innovacare.net",
+      "path": "/",
+      "expires": 1789387816.753394,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://innovaweb.innovacare.net",
+      "localStorage": [
+        {
+          "name": "innovacare-auth",
+          "value": "{\"state\":{\"isAuthenticated\":true,\"user\":{\"userID\":73359,\"userName\":\"Demo73359\",\"fullName\":\"Linda \",\"firstName\":\"Linda\",\"franchiseID\":2,\"roleStatus\":3,\"roleID\":18},\"accessToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MzM1OSIsIm5hbWUiOiJEZW1vNzMzNTkiLCJ1c2VySWQiOiI3MzM1OSIsInVzZXJOYW1lIjoiRGVtbzczMzU5IiwiZnJhbmNoaXNlSWQiOiIyIiwicm9sZVN0YXR1cyI6IjMiLCJqdGkiOiI1NDI2ZDRkZC1mMjhiLTQzMjYtOTEwZS0zYmI4YTA5OWNhNzgiLCJpYXQiOiIxNzg5MzAxNDE2Iiwic29jU2lkIjoiMTQxMWM5NTItNTJiOS00M2U1LWJiMTMtZWU0ODc3Njk5NmViIiwiYXV0aE1ldGhvZCI6InBhc3N3b3JkIiwiZXhwIjoxNzg5MzAyMDE2LCJpc3MiOiJJbm5vdmFjYXJlQVBJIiwiYXVkIjoiSW5ub3ZhY2FyZVdlYkFwcCJ9.HFtEwFrNB2axSIIfwMjodC2hqsi1oPUw_0lMt0_iaeo\",\"refreshToken\":\"PaowJBOvzsZ/7TDbDXM7s5ns0U0iWdjDh/xWuQt4W9ghAPV5zgiquv8Nuh8zQ61CItBHDOuuqtip2HgqflG9wQ==\",\"tokenExpiry\":\"2026-09-13T12:20:16.4063644Z\"},\"version\":0}"
+        },
+        {
+          "name": "msal.version",
+          "value": "5.6.3"
+        },
+        {
+          "name": "innovacare_client_device_id",
+          "value": "dac18442-468a-4bf9-9ff6-211b967d6635"
+        }
+      ]
+    }
+  ]
+}
