@@ -17,6 +17,6 @@ test('has title', async ({ page }) => {
 
 test('standard user logs in successfully', async ({ loginPage, dashboardPage, page }) => {
     await loginPage.login(users.standard.username, users.standard.password);
-   // await expect(dashboardPage.pageTitle).toBeVisible();
+    await expect(dashboardPage.pageTitle).toBeVisible();
 });
 });
