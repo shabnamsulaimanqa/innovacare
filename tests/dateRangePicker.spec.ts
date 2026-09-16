@@ -27,7 +27,7 @@ test.describe('Date Range Picker - Dynamic Date Presets', () => {
         await expect.poll(() => datePicker.getToValue()).toBe(expected);
     });
 
-    test('Yesterday preset selects the previous datenew git', async () => {
+    test('Yesterday preset selects the previous date new git', async () => {
         await datePicker.yesterdayOption.click();
         const expected = toInputFormat(getYesterday());
         await expect.poll(() => datePicker.getFromValue()).toBe(expected);
