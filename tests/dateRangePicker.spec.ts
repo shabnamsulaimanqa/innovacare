@@ -20,7 +20,7 @@ test.describe('Date Range Picker - Dynamic Date Presets', () => {
         await datePicker.open();
     });
 
-    test('Today preset selects the current date GIT', async () => {
+    test('Today preset selects the current date', async () => {
         await datePicker.todayOption.click();
         const expected = toInputFormat(getToday());
         await expect.poll(() => datePicker.getFromValue()).toBe(expected);
